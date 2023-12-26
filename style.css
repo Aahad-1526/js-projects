@@ -1,0 +1,111 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color:#2589BD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#panel{
+    height: 80%;
+    width: 80%;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.ptop{
+    height: 17%;
+    width: 100%;
+    background-color: #CDC6AE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.elem{
+
+    height: 50px;
+    width: 60vw;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.boxes{
+    width: 15vw;
+    height: 35px;
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+
+.boxes >h2{
+    text-transform: uppercase;
+    font-size: 1.3vw;
+}
+
+.display{
+    height: 35px;
+    width: 40px;
+    background-color: black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.display>h2{
+    font-size: 1.5vw;
+}
+
+.pbtm{
+    height: 83%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.circle{
+    height: 60px;
+    width: 60px;
+    background-color: #CDC6AE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 5px;
+    transition: all ease-out 0.2s;
+}
+
+.circle:hover{
+    background-color: #2589BD;
+}
+.circle>h2{
+    font-weight: 300;
+
+}
+
