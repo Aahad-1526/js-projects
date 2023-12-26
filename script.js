@@ -2,7 +2,7 @@
 function generateCircle(){
     let circle ="";
     for(let i =0; i<136; i++){
-       let rn = Math.floor(Math.random()*20);
+       let rn = Math.floor(Math.random()*10);
        circle = circle +`<div class="circle"><h2> ${rn} </h2></div>`;
     }
 
@@ -25,7 +25,7 @@ function runTimer(){
 
 let rdn = 0;
 function newTarget(){
-    rdn =  Math.floor(Math.random()*20);
+    rdn =  Math.floor(Math.random()*10);
     document.querySelector("#target").innerHTML=rdn;
 }
 
